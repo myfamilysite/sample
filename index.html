@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Web Page</title>
+	<style>
+		.myDiv {background-color: tomato;
+  		     color: white;
+  		     border: 2px solid black;
+  		     margin: 20px;
+  		     padding: 10px;}
+		.myNav a {display:inline-block;
+				width:150px;
+				color:black;
+				background:lightgrey;
+				border: 2px solid lightgrey;
+				border-radius:5px;
+				padding:10px;
+				margin:20px;
+				opacity:0.5;}
+	</style>
+</head>
+	<body style="background-color:lightyellow">		
+		<h1 style="text-align:center">This is a h1 heading</h1>
+		<nav class="myNav">
+			<a href="index.html">Home</a>
+			<a href="http://www.nemisa.co.za">Nemisa</a>
+			<a href="http://www.vut.ac.za">VUT</a>
+		</nav>
+		<div class="myDiv">		
+			<h2 style="text-align:center">This is a h2 heading</h2> 
+ 			<p style="text-align:left; padding-left:30px"><b>This is a paragraph</b>
+				<ol>
+					<li>Ordered List Item</li>
+					<li>Another Ordered List Item</li>
+				</ol>
+				<ul>
+					<li>An Unordered List Item</li>
+					<li>Another Unordered List Item</li>
+				</ul></p></div>
+			<p style="text-align:right"><u>This is another paragraph</u></p>
+			<p style="text-align:center"><i>This is yet another paragraph</i></p>
+			<p><img src="data:image/png;base64,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" alt="Nemisa logo" style="float:right; width:200px; height:120px;"></p>
+	</body>
+</html>
